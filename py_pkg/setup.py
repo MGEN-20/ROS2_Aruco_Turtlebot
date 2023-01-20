@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "project = my_py_pkg.project_Node:main",
-            "camera_rec = my_py_pkg.camera:main",
+            "project = py_pkg.project_node:main",
+            "camera_rec = py_pkg.camera_node:main",
         ],
     },
 )
